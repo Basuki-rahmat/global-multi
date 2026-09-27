@@ -1,0 +1,33 @@
+{
+  "name": "multi-global",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
+    "server:dev": "node --watch server/src/app.js",
+    "client:dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/src/app.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "bcryptjs": "latest",
+    "concurrently": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "express-rate-limit": "latest",
+    "helmet": "latest",
+    "jsonwebtoken": "latest",
+    "lucide-react": "latest",
+    "morgan": "^1.12.1",
+    "mysql2": "latest",
+    "nodemailer": "^10.0.10",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest",
+    "zod": "latest"
+  }
+}
