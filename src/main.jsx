@@ -369,12 +369,12 @@ function AdminBarList({ items, emptyText, unit = 'pesanan' }) {
 }
 
 const appCards = [
-  { number: '01', title: 'Percetakan', copy: 'Kelola pesanan cetak, desain, produksi, dan finishing.', icon: Palette, color: 'coral', image: '/assets/percetakan.png', features: ['Order cetak', 'Produksi & finishing'] },
-  { number: '02', title: 'Retail / Grosir', copy: 'Penjualan, stok, pelanggan, dan laporan dalam satu tempat.', icon: Package, color: 'blue', image: '/assets/retail.png', features: ['POS & barcode', 'Stok real-time'] },
-  { number: '03', title: 'Bengkel Mobil', copy: 'Servis, sparepart, mekanik, dan riwayat kendaraan.', icon: Settings2, color: 'yellow', image: '/assets/bengkel-mobil.png', features: ['Booking servis', 'Riwayat kendaraan'] },
-  { number: '04', title: 'Bengkel Motor', copy: 'Antrian servis, stok, pelanggan, dan pembayaran.', icon: Zap, color: 'green', image: '/assets/motor.png', features: ['Antrian digital', 'Sparepart & kasir'] },
-  { number: '05', title: 'Kuliner / UMKM', copy: 'Menu, meja, pesanan, kasir, dan penjualan.', icon: Command, color: 'purple', image: '/assets/kuliner.png', features: ['Menu & meja', 'Kitchen order'] },
-  { number: '06', title: 'Travel', copy: 'Paket perjalanan, booking, tiket, dan manifest.', icon: Globe2, color: 'cyan', image: '/assets/travel.png', features: ['Booking tiket', 'Manifest penumpang'] },
+  { number: '01', title: 'Percetakan', copy: 'Kelola pesanan cetak, desain, produksi, dan finishing.', icon: Palette, color: 'coral', image: '/assets/percetakan.webp', features: ['Order cetak', 'Produksi & finishing'] },
+  { number: '02', title: 'Retail / Grosir', copy: 'Penjualan, stok, pelanggan, dan laporan dalam satu tempat.', icon: Package, color: 'blue', image: '/assets/retail.webp', features: ['POS & barcode', 'Stok real-time'] },
+  { number: '03', title: 'Bengkel Mobil', copy: 'Servis, sparepart, mekanik, dan riwayat kendaraan.', icon: Settings2, color: 'yellow', image: '/assets/bengkel-mobil.webp', features: ['Booking servis', 'Riwayat kendaraan'] },
+  { number: '04', title: 'Bengkel Motor', copy: 'Antrian servis, stok, pelanggan, dan pembayaran.', icon: Zap, color: 'green', image: '/assets/motor.webp', features: ['Antrian digital', 'Sparepart & kasir'] },
+  { number: '05', title: 'Kuliner / UMKM', copy: 'Menu, meja, pesanan, kasir, dan penjualan.', icon: Command, color: 'purple', image: '/assets/kuliner.webp', features: ['Menu & meja', 'Kitchen order'] },
+  { number: '06', title: 'Travel', copy: 'Paket perjalanan, booking, tiket, dan manifest.', icon: Globe2, color: 'cyan', image: '/assets/travel.webp', features: ['Booking tiket', 'Manifest penumpang'] },
 ]
 
 const aiCards = [
@@ -457,7 +457,7 @@ function DashboardPreview() {
             </div>
             <div className="mini-grid"><div className="mini-chart"><div className="chart-title"><b>Ringkasan Penjualan</b><span>Minggu ini⌄</span></div><div className="chart-bars"><i /><i /><i /><i /><i /><i /><i /></div><div className="chart-labels"><span>Sen</span><span>Sel</span><span>Rab</span><span>Kam</span><span>Jum</span><span>Sab</span><span>Min</span></div></div><div className="mini-orders"><b>Pesanan Terbaru</b><div><span className="order-dot coral-dot" />Percetakan Jaya <em>Selesai</em></div><div><span className="order-dot blue-dot" />Toko Sejahtera <em>Diproses</em></div><div><span className="order-dot green-dot" />RM Nusantara <em>Selesai</em></div></div></div>
           </main>
-        </div> : <div className="plan-slide" role="group" aria-roledescription="slide" aria-label="Slide 2 dari 2: Rencana Multi Global"><img src="/assets/plan.png" alt="Gambaran platform Multi Global" /></div>}
+        </div> : <div className="plan-slide" role="group" aria-roledescription="slide" aria-label="Slide 2 dari 2: Rencana Multi Global"><img src="/assets/plan.webp" alt="Gambaran platform Multi Global" /></div>}
       </div>
       {activeSlide === 0 && <>
         <div className="floating-note ai-note"><span><Bot size={15} /></span><div><b>AI Insight</b><small>Penjualan meningkat 18%</small></div></div>
